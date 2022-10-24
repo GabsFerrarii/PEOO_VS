@@ -1,0 +1,26 @@
+﻿<Window x:Class="RetanguloApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RetanguloApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid Margin="22,10,23,16">
+        <GroupBox Header="Area e Diagonal">
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="68,39,0,0" Text="Base" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.715,0.533"/>
+                <TextBlock x:Name="txt2" HorizontalAlignment="Left" Margin="230,39,0,0" Text="Altura" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+                <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="26,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25" FontSize="18"/>
+                <TextBox x:Name="txt5" HorizontalAlignment="Left" Margin="194,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25" FontSize="18"/>
+                <Button Content="Calcular" HorizontalAlignment="Center" Margin="0,144,0,0" VerticalAlignment="Top" Height="34" Width="112" FontSize="18" Click="Button_Click"/>
+                <TextBlock HorizontalAlignment="Left" Margin="68,39,0,0" Text="Base" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.715,0.533"/>
+                <TextBlock x:Name="txt3" HorizontalAlignment="Left" Margin="68,216,0,0" Text="Área" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.715,0.533"/>
+                <TextBlock x:Name="txt4" HorizontalAlignment="Left" Margin="219,216,0,0" Text="Diagonal" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18"/>
+                <TextBox HorizontalAlignment="Left" Margin="26,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25" FontSize="18"/>
+                <TextBox HorizontalAlignment="Left" Margin="194,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="24" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
