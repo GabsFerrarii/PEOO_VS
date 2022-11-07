@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbastecimentoApp", "AbastecimentoApp.csproj", "{EF1AF4EC-08E6-4949-9C68-C54A787B7C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbastecimentoApp", "AbastecimentoApp.csproj", "{EF1AF4EC-08E6-4949-9C68-C54A787B7C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetanguloApp", "..\RetanguloApp\RetanguloApp.csproj", "{B843C041-FF3C-4E66-AF3D-43F29E35CBCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetanguloApp", "..\RetanguloApp\RetanguloApp.csproj", "{B843C041-FF3C-4E66-AF3D-43F29E35CBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingoApp", "..\BingoApp\BingoApp.csproj", "{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B843C041-FF3C-4E66-AF3D-43F29E35CBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B843C041-FF3C-4E66-AF3D-43F29E35CBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B843C041-FF3C-4E66-AF3D-43F29E35CBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
