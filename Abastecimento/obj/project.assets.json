@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
+      "projectUniqueName": "C:\\temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
       "projectName": "AbastecimentoApp",
-      "projectPath": "C:\\Temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
+      "projectPath": "C:\\temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
       "packagesPath": "C:\\Users\\20211011110027\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\PEOO_VS\\Abastecimento\\obj\\",
+      "outputPath": "C:\\temp\\PEOO_VS\\Abastecimento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20211011110027\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BingoApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="400">
     <Grid>
+        <GroupBox Header="Número de Bolas" Margin="10,0,10,189">
+            <Grid>
+                <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="120" ValueChanged="Slider_ValueChanged" Maximum="100" Value="50" Minimum="10" IsSnapToTickEnabled="True"/>
+                <Button x:Name="btnIniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="277,0,0,0" VerticalAlignment="Center" Width="81" Click="btnIniciar_Click"/>
+                <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="161,0,0,0" Text="50" TextWrapping="Wrap" VerticalAlignment="Center" Width="90"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnSortear" Content="Sortear" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Height="101" Width="182" Click="btnSortear_Click"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Margin="214,100,0,0" Text="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="101" FontSize="72" UndoLimit="103" TextAlignment="Center"/>
+        <GroupBox x:Name="txt3"  Header="Sorteados" Margin="10,206,10,10">
+            <TextBox x:Name="txtSorteados" HorizontalAlignment="Left" Text="1 - 2 - 3 - 4" TextWrapping="Wrap" Width="370"/>
+        </GroupBox>
+
 
     </Grid>
 </Window>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
+      "projectUniqueName": "C:\\temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
       "projectName": "RetanguloApp",
-      "projectPath": "C:\\Temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
+      "projectPath": "C:\\temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
       "packagesPath": "C:\\Users\\20211011110027\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\PEOO_VS\\RetanguloApp\\obj\\",
+      "outputPath": "C:\\temp\\PEOO_VS\\RetanguloApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20211011110027\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
