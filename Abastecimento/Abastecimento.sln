@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbastecimentoApp", "Abastec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetanguloApp", "..\RetanguloApp\RetanguloApp.csproj", "{B843C041-FF3C-4E66-AF3D-43F29E35CBCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingoApp", "..\BingoApp\BingoApp.csproj", "{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BingoApp", "..\BingoApp\BingoApp.csproj", "{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParesImparesApp", "..\ParesImparesApp\ParesImparesApp.csproj", "{B80EA920-73E5-4951-A2B0-5449C92FA8C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFDA4863-C0E9-4F0F-AEC8-F043D35B4A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80EA920-73E5-4951-A2B0-5449C92FA8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80EA920-73E5-4951-A2B0-5449C92FA8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80EA920-73E5-4951-A2B0-5449C92FA8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80EA920-73E5-4951-A2B0-5449C92FA8C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

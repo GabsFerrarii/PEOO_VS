@@ -9,9 +9,10 @@
     <Grid>
         <GroupBox Header="Número de Bolas" Margin="10,0,10,189">
             <Grid>
+                <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="161,0,0,0" Text="50" TextWrapping="Wrap" VerticalAlignment="Center" Width="90"/>
                 <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="120" ValueChanged="Slider_ValueChanged" Maximum="100" Value="50" Minimum="10" IsSnapToTickEnabled="True"/>
                 <Button x:Name="btnIniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="277,0,0,0" VerticalAlignment="Center" Width="81" Click="btnIniciar_Click"/>
-                <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="161,0,0,0" Text="50" TextWrapping="Wrap" VerticalAlignment="Center" Width="90"/>
+                
             </Grid>
         </GroupBox>
         <Button x:Name="btnSortear" Content="Sortear" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Height="101" Width="182" Click="btnSortear_Click"/>

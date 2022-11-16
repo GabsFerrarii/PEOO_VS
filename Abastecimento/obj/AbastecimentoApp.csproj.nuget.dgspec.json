@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj": {}
+    "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj": {}
   },
   "projects": {
-    "C:\\temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj": {
+    "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
         "projectName": "AbastecimentoApp",
-        "projectPath": "C:\\temp\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
+        "projectPath": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\Abastecimento\\AbastecimentoApp.csproj",
         "packagesPath": "C:\\Users\\20211011110027\\.nuget\\packages\\",
-        "outputPath": "C:\\temp\\PEOO_VS\\Abastecimento\\obj\\",
+        "outputPath": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\Abastecimento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20211011110027\\AppData\\Roaming\\NuGet\\NuGet.Config",

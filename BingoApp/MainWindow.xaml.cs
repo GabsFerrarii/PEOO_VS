@@ -50,6 +50,16 @@ namespace BingoApp
                 btnIniciar.IsEnabled = true;
                 btnSortear.IsEnabled = false;
             }
+            else
+            {
+                txt2.Text = x.ToString();
+                string s = "";
+                foreach(int i in b.Sorteados())
+                {
+                    s = s + i + " - ";
+                    txtSorteados.Text = s;
+                }
+            }
         }
     }
 }

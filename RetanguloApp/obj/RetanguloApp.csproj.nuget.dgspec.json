@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj": {}
+    "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj": {}
   },
   "projects": {
-    "C:\\temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj": {
+    "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
         "projectName": "RetanguloApp",
-        "projectPath": "C:\\temp\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
+        "projectPath": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\RetanguloApp\\RetanguloApp.csproj",
         "packagesPath": "C:\\Users\\20211011110027\\.nuget\\packages\\",
-        "outputPath": "C:\\temp\\PEOO_VS\\RetanguloApp\\obj\\",
+        "outputPath": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\RetanguloApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20211011110027\\AppData\\Roaming\\NuGet\\NuGet.Config",
