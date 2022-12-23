@@ -1,0 +1,16 @@
+﻿<Window x:Class="EscolaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EscolaApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Button Click="TurmaClick"  Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Click="AlunoClick" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Click="MatriculaClick" Content="Matricular Aluno" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Click="DiarioClick" Content="Diário da Turma" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="140"/>
+
+    </Grid>
+</Window>
