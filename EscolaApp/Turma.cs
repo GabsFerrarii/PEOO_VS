@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EscolaApp
 {
-    class Turma
+    public class Turma
     {
         public int Id
         {
