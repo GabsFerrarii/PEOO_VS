@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="AlunoWindow" Height="200" Width="300">
+        Title="AlunoWindow" Height="200" Width="400">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
+        <TextBlock HorizontalAlignment="Left" Margin="70,10,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="70,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="134"/>
+        <TextBlock HorizontalAlignment="Left" Margin="209,10,0,0" TextWrapping="Wrap" Text="Matrícula" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Margin="209,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115"/>
+        <TextBlock HorizontalAlignment="Left" Margin="329,10,0,0" TextWrapping="Wrap" Text="IdTurma" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIdTurma" HorizontalAlignment="Left" Margin="329,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+        <Button Content="Abrir" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
+        <Button Content="Salvar" HorizontalAlignment="Left" Margin="45,60,0,0" VerticalAlignment="Top"/>
+        <Button Content="Matricular" HorizontalAlignment="Left" Margin="86,60,0,0" VerticalAlignment="Top"/>
+        <Button Content="Listar Diário" HorizontalAlignment="Left" Margin="149,60,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listDiario" Margin="10,90,10,10" />
     </Grid>
 </Window>
