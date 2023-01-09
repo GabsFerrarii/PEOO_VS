@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace EscolaApp
 {
-    static internal class NAluno
+    static class NAluno
     {
         private static List<Aluno> alunos = new List<Aluno>(); 
         public static void Inserir(Aluno a)
@@ -70,12 +70,6 @@ namespace EscolaApp
             StreamWriter f = new StreamWriter("./alunos.xml", false);
             xml.Serialize(f, alunos);
             f.Close();
-        }
-        public static void Matricular(Aluno a, Turma t)
-        {
-            Abrir();
-            a.IdTurma = t.Id;
-            Salvar();
         }
     }
 }

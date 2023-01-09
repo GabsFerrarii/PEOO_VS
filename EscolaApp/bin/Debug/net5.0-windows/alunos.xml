@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Aluno>
+    <Id>1</Id>
+    <Nome>asd</Nome>
+    <Matricula>1233</Matricula>
+    <IdTurma>1</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>1</Id>
+    <Nome>asd</Nome>
+    <Matricula>1233</Matricula>
+    <IdTurma>1</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>1</Id>
+    <Nome>asd</Nome>
+    <Matricula>1233</Matricula>
+    <IdTurma>1</IdTurma>
+  </Aluno>
+</ArrayOfAluno>
