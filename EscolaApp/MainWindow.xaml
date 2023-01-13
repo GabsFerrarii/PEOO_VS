@@ -5,12 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="300">
+        Title="Escola" Height="200" Width="300">
     <Grid>
-        <Button Click="TurmaClick"  Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140"/>
-        <Button Click="AlunoClick" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Width="140"/>
-        <Button Click="MatriculaClick" Content="Matricular Aluno" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="140"/>
-        <Button Click="DiarioClick" Content="Diário da Turma" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="140"/>
+        <Menu>
+            <MenuItem Header="Cadastros">
+                <MenuItem Header="Turmas" Click="TurmaClick"/>
+                <MenuItem Header="Alunos" Click="AlunoClick"/>
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Matricular Aluno" Click="MatriculaClick"/>
+                <MenuItem Header="Diário de Turmas" Click="DiarioClick"/>
+            </MenuItem>
+        </Menu>
+        <Button Visibility="Hidden" Click="TurmaClick"  Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Visibility="Hidden" Click="AlunoClick" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Visibility="Hidden" Click="MatriculaClick" Content="Matricular Aluno" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button Visibility="Hidden" Click="DiarioClick" Content="Diário da Turma" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="140"/>
 
     </Grid>
 </Window>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="AlunoWindow" Height="200" Width="400">
+        Title="Cadastro de Alunos" Height="200" Width="400">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top"/>
         <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="55"/>
@@ -20,5 +20,7 @@
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="89,60,0,0" VerticalAlignment="Top"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="132,60,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="listDiario" Margin="10,90,10,10" />
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="209,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115"/>
+        <TextBlock HorizontalAlignment="Left" Margin="209,49,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
     </Grid>
 </Window>

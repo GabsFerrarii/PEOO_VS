@@ -31,6 +31,7 @@ namespace EscolaApp
             a.Nome = txtNome.Text;
             a.Matricula = txtMatricula.Text;
             a.IdTurma = int.Parse(txtIdTurma.Text);
+            a.Email = txtEmail.Text;
             NAluno.Inserir(a);
             ListarClick(sender, e);
         }

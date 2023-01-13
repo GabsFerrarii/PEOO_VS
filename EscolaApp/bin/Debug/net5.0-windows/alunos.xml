@@ -2,20 +2,30 @@
 <ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Aluno>
     <Id>1</Id>
-    <Nome>asd</Nome>
-    <Matricula>1233</Matricula>
+    <Nome>Heitor Cossito de Amorim Santos</Nome>
+    <Matricula>20211011110006</Matricula>
+    <Email>hc.heitorcossito@gmail.com</Email>
     <IdTurma>1</IdTurma>
   </Aluno>
   <Aluno>
-    <Id>1</Id>
-    <Nome>asd</Nome>
-    <Matricula>1233</Matricula>
+    <Id>2</Id>
+    <Nome>Lucas de Lima Nunes Fernandes</Nome>
+    <Matricula>20211011110027</Matricula>
+    <Email>eoluvas@gmail.com</Email>
     <IdTurma>1</IdTurma>
   </Aluno>
   <Aluno>
-    <Id>1</Id>
-    <Nome>asd</Nome>
-    <Matricula>1233</Matricula>
+    <Id>3</Id>
+    <Nome>Davi Leiteiro</Nome>
+    <Matricula>20211011110069</Matricula>
+    <Email>davas@gmail.com</Email>
+    <IdTurma>2</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>4</Id>
+    <Nome>Igoooo</Nome>
+    <Matricula>20211011110008</Matricula>
+    <Email>iguinho@gmail.com</Email>
     <IdTurma>1</IdTurma>
   </Aluno>
 </ArrayOfAluno>
