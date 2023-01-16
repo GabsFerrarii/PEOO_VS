@@ -88,3 +88,9 @@ C:\Users\ilane\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\refint\Es
 C:\Users\ilane\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\EscolaApp.pdb
 C:\Users\ilane\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\EscolaApp.genruntimeconfig.cache
 C:\Users\ilane\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\ref\EscolaApp.dll
+C:\Users\20211011110027\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\ProfessorWindow.g.cs
+C:\Users\20211011110027\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\ProfessorWindow.baml
+C:\Users\20211011110027\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\Cad_Prof_TurmaWindow.g.cs
+C:\Users\20211011110027\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\Cad_Prof_TurmaWindow.baml
+C:\Users\20211011110027\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\List_Turma_ProfWindow.g.cs
+C:\Users\20211011110027\source\repos\PEOO_VS\EscolaApp\obj\Debug\net5.0-windows\List_Turma_ProfWindow.baml

@@ -11,10 +11,13 @@
             <MenuItem Header="Cadastros">
                 <MenuItem Header="Turmas" Click="TurmaClick"/>
                 <MenuItem Header="Alunos" Click="AlunoClick"/>
+                <MenuItem Header="Professores" Click="ProfessorClick"/>
             </MenuItem>
             <MenuItem Header="Operações">
                 <MenuItem Header="Matricular Aluno" Click="MatriculaClick"/>
+                <MenuItem Header="Cadastrar Professor" Click="CadastroClick"/>
                 <MenuItem Header="Diário de Turmas" Click="DiarioClick"/>
+                <MenuItem Header="Listar Turmas de Professor" Click="ListarTurmasClick"/>
             </MenuItem>
         </Menu>
         <Button Visibility="Hidden" Click="TurmaClick"  Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140"/>

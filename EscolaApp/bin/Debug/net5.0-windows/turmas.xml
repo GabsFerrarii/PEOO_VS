@@ -5,11 +5,13 @@
     <AnoLetivo>2021</AnoLetivo>
     <Curso>Infoweb</Curso>
     <Descricao>1 Ano</Descricao>
+    <IdProfessor>2</IdProfessor>
   </Turma>
   <Turma>
     <Id>2</Id>
     <AnoLetivo>2019</AnoLetivo>
     <Curso>Leiteiria</Curso>
     <Descricao>4 Ano</Descricao>
+    <IdProfessor>0</IdProfessor>
   </Turma>
 </ArrayOfTurma>

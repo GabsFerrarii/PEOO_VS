@@ -38,6 +38,7 @@ namespace EscolaApp
                     obj.AnoLetivo = t.AnoLetivo;
                     obj.Curso = t.Curso;
                     obj.Descricao = t.Descricao;
+                    obj.IdProfessor = t.IdProfessor;
                 }
             }
             Salvar();
@@ -52,6 +53,21 @@ namespace EscolaApp
             }
             if (x != null) turmas.Remove(x);
             Salvar();
+        }
+        public static void CadastrarProfessor(Professor p , Turma t)
+        {
+            t.IdProfessor = p.Id;
+            Atualizar(t);
+        }
+        public static List<Turma> Listar(Professor p)
+        {
+            Abrir();
+            List<Turma> turmasProf = new List<Turma>();
+            foreach (Turma obj in turmas)
+            {
+                if (obj.IdProfessor == p.Id) turmasProf.Add(obj);
+            }
+            return turmasProf;
         }
         public static void Abrir()
         {

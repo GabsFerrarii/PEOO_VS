@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProfessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Professor>
+    <Id>1</Id>
+    <Nome>Gilbert Azevedo</Nome>
+    <Matricula>123456</Matricula>
+    <Area>Tecnologia</Area>
+  </Professor>
+  <Professor>
+    <Id>2</Id>
+    <Nome>Danielle Freitas</Nome>
+    <Matricula>654321</Matricula>
+    <Area>Tecnologia</Area>
+  </Professor>
+</ArrayOfProfessor>
