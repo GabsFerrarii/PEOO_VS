@@ -31,16 +31,11 @@ namespace EscolaApp
         public static void Atualizar(Turma t)
         {
             Abrir();
-            foreach(Turma obj in turmas)
-            {
-                if(obj.Id == t.Id)
-                {
-                    obj.AnoLetivo = t.AnoLetivo;
-                    obj.Curso = t.Curso;
-                    obj.Descricao = t.Descricao;
-                    obj.IdProfessor = t.IdProfessor;
-                }
-            }
+            Turma obj = Listar(t.Id);
+            obj.AnoLetivo = t.AnoLetivo;
+            obj.Curso = t.Curso;
+            obj.Descricao = t.Descricao;
+            obj.IdProfessor = t.IdProfessor;
             Salvar();
         }
         public static void Excluir(Turma t)
@@ -68,6 +63,14 @@ namespace EscolaApp
                 if (obj.IdProfessor == p.Id) turmasProf.Add(obj);
             }
             return turmasProf;
+        }
+        public static Turma Listar(int id)
+        {
+            foreach(Turma t in turmas)
+            {
+                if (t.Id == id) return t;
+            }
+            return null;
         }
         public static void Abrir()
         {

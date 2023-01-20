@@ -28,18 +28,21 @@ namespace EscolaApp
             Abrir();
             return profs;
         }
+        public static Professor Listar(int id)
+        {
+            foreach (Professor p in profs)
+            {
+                if (p.Id == id) return p;
+            }
+            return null;
+        }
         public static void Atualizar(Professor p)
         {
             Abrir();
-            foreach (Professor obj in profs)
-            {
-                if (obj.Id == p.Id)
-                {
-                    obj.Nome = p.Nome;
-                    obj.Matricula = p.Matricula;
-                    obj.Area = p.Area;
-                }
-            }
+            Professor obj = Listar(p.Id);
+            obj.Nome = p.Nome;
+            obj.Matricula = p.Matricula;
+            obj.Area = p.Area;
             Salvar();
         }
         public static void Excluir(Professor p)
