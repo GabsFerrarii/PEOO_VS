@@ -23,5 +23,10 @@ namespace AplicativoDeMensagensApp
         {
             InitializeComponent();
         }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -24,5 +24,29 @@ namespace AplicativoDeMensagensApp
         {
             InitializeComponent();
         }
+
+        private void Grupo_Click(object sender, RoutedEventArgs e)
+        {
+            GrupoWindow w = new GrupoWindow();
+            w.ShowDialog();
+        }
+
+        private void Contato_Click(object sender, RoutedEventArgs e)
+        {
+            ContatoWindow w = new ContatoWindow();
+            w.ShowDialog();
+        }
+
+        private void AddContato_Click(object sender, RoutedEventArgs e)
+        {
+            Add_ContatoWindow w = new Add_ContatoWindow();
+            w.ShowDialog();
+        }
+
+        private void ListMembros_Click(object sender, RoutedEventArgs e)
+        {
+            List_MembrosWindow w = new List_MembrosWindow();
+            w.ShowDialog();
+        }
     }
 }

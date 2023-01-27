@@ -8,23 +8,23 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ilane\\.nuget\\packages\\": {}
+    "C:\\Users\\20211011110027\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilane\\source\\repos\\PEOO_VS\\AplicativoDeMensagensApp\\AplicativoDeMensagensApp.csproj",
+      "projectUniqueName": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\AplicativoDeMensagensApp\\AplicativoDeMensagensApp.csproj",
       "projectName": "AplicativoDeMensagensApp",
-      "projectPath": "C:\\Users\\ilane\\source\\repos\\PEOO_VS\\AplicativoDeMensagensApp\\AplicativoDeMensagensApp.csproj",
-      "packagesPath": "C:\\Users\\ilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilane\\source\\repos\\PEOO_VS\\AplicativoDeMensagensApp\\obj\\",
+      "projectPath": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\AplicativoDeMensagensApp\\AplicativoDeMensagensApp.csproj",
+      "packagesPath": "C:\\Users\\20211011110027\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\20211011110027\\source\\repos\\PEOO_VS\\AplicativoDeMensagensApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\20211011110027\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -64,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
