@@ -1,0 +1,9 @@
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\AplicativoDeMensagensApp.csproj.AssemblyReference.cache
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\Add_ContatoWindow.g.cs
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\ContatoWindow.g.cs
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\GrupoWindow.g.cs
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\List_MembrosWindow.g.cs
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\AplicativoDeMensagensApp_MarkupCompile.cache
+C:\Users\ilane\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\AplicativoDeMensagensApp_MarkupCompile.lref

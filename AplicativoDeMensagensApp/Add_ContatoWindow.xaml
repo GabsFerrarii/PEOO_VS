@@ -1,0 +1,15 @@
+﻿<Window x:Class="AplicativoDeMensagensApp.Add_ContatoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplicativoDeMensagensApp"
+        mc:Ignorable="d"
+       Title="Adicionar contato" Height="270" Width="426">
+    <Grid>
+        <ListBox x:Name="listContatos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0" Width="406" Height="90"/>
+        <ListBox Name="listGrupos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,110,0,0" Width="406" Height="90"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top"/>
+        <Button Click="MatricularClick" Content="Matricular" HorizontalAlignment="Left" Margin="49,209,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
