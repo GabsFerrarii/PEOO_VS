@@ -26,27 +26,47 @@ namespace AplicativoDeMensagensApp
 
         private void InserirClick(object sender, RoutedEventArgs e)
         {
-
+            Grupo g = new Grupo();
+            g.Id = int.Parse(txtId.Text);
+            g.Nome = txtNome.Text;
+            g.Descricao = txtDesc.Text;
+            NGrupo.Inserir(g);
+            ListarClick(sender, e);
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            listGrupos.ItemsSource = null;
+            listGrupos.ItemsSource = NGrupo.Listar();
         }
 
         private void AtualizarClick(object sender, RoutedEventArgs e)
         {
-
+            Grupo g = new Grupo();
+            g.Id = int.Parse(txtId.Text);
+            g.Nome = txtNome.Text;
+            g.Descricao = txtDesc.Text;
+            NGrupo.Atualizar(g);
+            ListarClick(sender, e);
         }
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
-
+            Grupo g = new Grupo();
+            g.Id = int.Parse(txtId.Text);
+            NGrupo.Excluir(g);
+            ListarClick(sender, e);
         }
 
         private void listTurmas_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            if (listGrupos.SelectedItem != null)
+            {
+                Grupo obj = (Grupo)listGrupos.SelectedItem;
+                txtId.Text = obj.Id.ToString();
+                txtNome.Text = obj.Nome;
+                txtDesc.Text = obj.Descricao;
+            }
         }
     }
 }

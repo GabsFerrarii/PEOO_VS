@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AplicativoDeMensagensApp
 {
-    class Contato
+    public class Contato
     {
         public int Id { get; set; }
         public string Nome { get; set; }

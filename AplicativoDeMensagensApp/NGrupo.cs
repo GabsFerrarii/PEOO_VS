@@ -36,10 +36,7 @@ namespace AplicativoDeMensagensApp
             }
             return null;
         }
-        public static /*List<Membro>*/ void ListarMembros(Grupo g)
-        {
-
-        }
+        
         public static void Excluir(Grupo g)
         {
             Abrir();
@@ -59,10 +56,7 @@ namespace AplicativoDeMensagensApp
             obj.Descricao = g.Descricao;
             Salvar();
         }
-        public static void CadastrarContato(Contato c, Grupo g)
-        {
-
-        }
+        
         public static void Abrir()
         {
             StreamReader f = null;

@@ -16,6 +16,9 @@
     <Compile Update="GrupoWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="List_GruposWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="List_MembrosWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GrupoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="List_GruposWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="List_MembrosWindow.xaml">

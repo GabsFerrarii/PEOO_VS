@@ -26,27 +26,50 @@ namespace AplicativoDeMensagensApp
 
         private void InserirClick(object sender, RoutedEventArgs e)
         {
-
+            Contato c = new Contato();
+            c.Id = int.Parse(txtId.Text);
+            c.Nome = txtNome.Text;
+            c.Email = txtEmail.Text;
+            c.Numero = txtNumero.Text;
+            NContato.Inserir(c);
+            ListarClick(sender, e);
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            listContatos.ItemsSource = null;
+            listContatos.ItemsSource = NContato.Listar();
         }
 
         private void AtualizarClick(object sender, RoutedEventArgs e)
         {
-
+            Contato c = new Contato();
+            c.Id = int.Parse(txtId.Text);
+            c.Nome = txtNome.Text;
+            c.Email = txtEmail.Text;
+            c.Numero = txtNumero.Text;
+            NContato.Atualizar(c);
+            ListarClick(sender, e);
         }
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
-
+            Contato c = new Contato();
+            c.Id = int.Parse(txtId.Text);
+            NContato.Excluir(c);
+            ListarClick(sender, e);
         }
 
-        private void listAlunos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void listContatos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            if (listContatos.SelectedItem != null)
+            {
+                Contato obj = (Contato)listContatos.SelectedItem;
+                txtId.Text = obj.Id.ToString();
+                txtNome.Text = obj.Nome;
+                txtEmail.Text = obj.Email;
+                txtNumero.Text = obj.Numero;
+            }
         }
     }
 }

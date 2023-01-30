@@ -15,21 +15,16 @@ using System.Windows.Shapes;
 namespace AplicativoDeMensagensApp
 {
     /// <summary>
-    /// Lógica interna para List_MembrosWindow.xaml
+    /// Lógica interna para List_GruposWindow.xaml
     /// </summary>
-    public partial class List_MembrosWindow : Window
+    public partial class List_GruposWindow : Window
     {
-        public List_MembrosWindow()
+        public List_GruposWindow()
         {
             InitializeComponent();
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void AdminClick(object sender, RoutedEventArgs e)
         {
 
         }

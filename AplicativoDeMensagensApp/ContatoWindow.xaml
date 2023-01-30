@@ -9,18 +9,16 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="14,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"><Run Language="pt-br" Text="Id:"/></TextBlock>
         <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="14,43,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="55"/>
-        <TextBlock HorizontalAlignment="Left" Margin="74,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Height="16" Text="IdContato:"/>
-        <TextBox x:Name="txtIdContato" HorizontalAlignment="Left" Margin="74,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63"/>
-        <TextBlock HorizontalAlignment="Left" Margin="142,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20" Text="IdGrupo:"/>
-        <TextBox x:Name="txtIdGrupo" HorizontalAlignment="Left" Margin="142,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
-        <TextBlock HorizontalAlignment="Left" Margin="207,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Height="16" Text="Nome:"/>
-        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="207,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
-        <TextBlock HorizontalAlignment="Left" Margin="356,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" Height="20" Text="Número:"/>
-        <TextBox x:Name="txtNumero" HorizontalAlignment="Left" Margin="356,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Height="16" Text="Nome:"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="74,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBlock HorizontalAlignment="Left" Margin="222,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" Height="20" Text="Número:"/>
+        <TextBox x:Name="txtNumero" HorizontalAlignment="Left" Margin="222,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock HorizontalAlignment="Left" Margin="373,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" Height="20"><Run Language="pt-br" Text="E-mail:"/></TextBlock>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="373,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
         <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="14,72,0,0" VerticalAlignment="Top"/>
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="60,72,0,0" VerticalAlignment="Top"/>
         <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="100,72,0,0" VerticalAlignment="Top"/>
         <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="158,72,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="listContatos" Margin="14,110,17,10" SelectionChanged="listAlunos_SelectionChanged"/>
+        <ListBox x:Name="listContatos" Margin="14,110,17,10" SelectionChanged="listContatos_SelectionChanged"/>
     </Grid>
 </Window>

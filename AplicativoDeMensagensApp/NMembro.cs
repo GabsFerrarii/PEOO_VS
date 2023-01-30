@@ -36,14 +36,47 @@ namespace AplicativoDeMensagensApp
             }
             return null;
         }
-    
-        public static /*List<Grupo>*/ void ListarGrupos(Contato c)
+        public static void CadastrarContato(Contato c, Grupo g)
         {
-
+            Abrir();
+            Membro m = new Membro();
+            m.Id = 1;
+            m.Nome = c.Nome;
+            m.Numero = c.Numero;
+            m.Admin = false;
+            m.IdGrupo = g.Id;
+            m.IdContato = c.Id;
+            Inserir(m);
+            Salvar();
+        }
+        public static List<Membro> ListarMembros(Grupo g)
+        {
+            Abrir();
+            List<Membro> listMembros = new List<Membro>();
+            foreach(Membro m in membros)
+            {
+                if (m.IdGrupo == g.Id) listMembros.Add(m);
+            }
+            return listMembros;
+        }
+        public static List<Grupo> ListarGrupos(Contato c)
+        {
+            Abrir();
+            List<Grupo> listGrupos = new List<Grupo>();
+            foreach(Membro m in membros)
+            {
+                if (m.IdContato == c.Id)
+                {
+                    listGrupos.Add(NGrupo.Listar(m.IdGrupo));
+                }
+            }
+            return listGrupos;
         }
         public static void TornarAdmin(Membro m)
         {
-
+            Abrir();
+            m.Admin = true;
+            Salvar();
         }
         public static void Excluir(Membro m)
         {

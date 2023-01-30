@@ -48,5 +48,11 @@ namespace AplicativoDeMensagensApp
             List_MembrosWindow w = new List_MembrosWindow();
             w.ShowDialog();
         }
+
+        private void ListGrupos_Click(object sender, RoutedEventArgs e)
+        {
+            List_GruposWindow w = new List_GruposWindow();
+            w.ShowDialog();
+        }
     }
 }

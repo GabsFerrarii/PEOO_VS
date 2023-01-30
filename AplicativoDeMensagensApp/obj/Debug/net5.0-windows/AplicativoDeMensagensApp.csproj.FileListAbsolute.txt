@@ -37,3 +37,5 @@ C:\Users\20211011110027\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\
 C:\Users\20211011110027\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\ref\AplicativoDeMensagensApp.dll
 C:\Users\20211011110027\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\AplicativoDeMensagensApp.pdb
 C:\Users\20211011110027\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\AplicativoDeMensagensApp.genruntimeconfig.cache
+C:\Users\20211011110027\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\List_GruposWindow.g.cs
+C:\Users\20211011110027\source\repos\PEOO_VS\AplicativoDeMensagensApp\obj\Debug\net5.0-windows\List_GruposWindow.baml

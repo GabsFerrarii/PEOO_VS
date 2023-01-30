@@ -15,6 +15,7 @@
             <MenuItem Header="Operações">
                 <MenuItem Header="Adicionar contato..." Click="AddContato_Click" />
                 <MenuItem Header="Listar membros..." Click="ListMembros_Click" />
+                <MenuItem Header="Listar grupos..." Click="ListGrupos_Click" />
             </MenuItem>
         </Menu>
     </Grid>

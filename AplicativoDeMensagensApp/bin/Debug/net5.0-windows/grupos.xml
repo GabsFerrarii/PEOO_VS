@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGrupo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Grupo>
+    <Id>1</Id>
+    <Nome>Selma Dantas</Nome>
+    <Descricao>Grupo de humor</Descricao>
+  </Grupo>
+</ArrayOfGrupo>

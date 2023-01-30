@@ -1,15 +1,15 @@
-﻿<Window x:Class="AplicativoDeMensagensApp.List_MembrosWindow"
+﻿<Window x:Class="AplicativoDeMensagensApp.List_GruposWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AplicativoDeMensagensApp"
         mc:Ignorable="d"
-        Title="Listar membros" Height="270" Width="400">
+        Title="Listar grupos" Height="270" Width="400">
     <Grid>
-        <ListBox Name="listGrupos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0" Width="380" Height="90"/>
-        <ListBox x:Name="listMembros" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,110,0,0" Width="380" Height="90"/>
+        <ListBox Name="listContatos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0" Width="380" Height="90"/>
+        <ListBox x:Name="listGrupos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,110,0,0" Width="380" Height="90"/>
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top"/>
-        <Button Click="AdminClick" Content="Admin" HorizontalAlignment="Left" Margin="47,209,0,0" VerticalAlignment="Top" Width="41"/>
+       
     </Grid>
 </Window>
