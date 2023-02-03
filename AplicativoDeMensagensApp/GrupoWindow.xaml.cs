@@ -26,12 +26,19 @@ namespace AplicativoDeMensagensApp
 
         private void InserirClick(object sender, RoutedEventArgs e)
         {
-            Grupo g = new Grupo();
-            g.Id = int.Parse(txtId.Text);
-            g.Nome = txtNome.Text;
-            g.Descricao = txtDesc.Text;
-            NGrupo.Inserir(g);
-            ListarClick(sender, e);
+            if(txtId.Text != string.Empty)
+            {
+                Grupo g = new Grupo();
+                g.Id = int.Parse(txtId.Text);
+                g.Nome = txtNome.Text;
+                g.Descricao = txtDesc.Text;
+                NGrupo.Inserir(g);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso escrever um Id");
+            }
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
@@ -42,20 +49,34 @@ namespace AplicativoDeMensagensApp
 
         private void AtualizarClick(object sender, RoutedEventArgs e)
         {
-            Grupo g = new Grupo();
-            g.Id = int.Parse(txtId.Text);
-            g.Nome = txtNome.Text;
-            g.Descricao = txtDesc.Text;
-            NGrupo.Atualizar(g);
-            ListarClick(sender, e);
+            if(txtId.Text != string.Empty)
+            {
+                Grupo g = new Grupo();
+                g.Id = int.Parse(txtId.Text);
+                g.Nome = txtNome.Text;
+                g.Descricao = txtDesc.Text;
+                NGrupo.Atualizar(g);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso escrever um Id");
+            }
         }
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
-            Grupo g = new Grupo();
-            g.Id = int.Parse(txtId.Text);
-            NGrupo.Excluir(g);
-            ListarClick(sender, e);
+            if(txtId.Text != string.Empty)
+            {
+                Grupo g = new Grupo();
+                g.Id = int.Parse(txtId.Text);
+                NGrupo.Excluir(g);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso escrever um Id");
+            }
         }
 
         private void listTurmas_SelectionChanged(object sender, SelectionChangedEventArgs e)

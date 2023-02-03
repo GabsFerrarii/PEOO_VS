@@ -22,11 +22,20 @@ namespace AplicativoDeMensagensApp
         public List_GruposWindow()
         {
             InitializeComponent();
+            listContatos.ItemsSource = NContato.Listar();
         }
-
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            if(listContatos.SelectedItem != null)
+            {
+                Contato c = (Contato)listContatos.SelectedItem;
+                listGrupos.ItemsSource = null;
+                listGrupos.ItemsSource = NMembro.ListarGrupos(c);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar um contato");
+            }
         }
     }
 }

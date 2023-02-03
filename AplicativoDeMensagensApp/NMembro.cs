@@ -74,9 +74,15 @@ namespace AplicativoDeMensagensApp
         }
         public static void TornarAdmin(Membro m)
         {
-            Abrir();
-            m.Admin = true;
-            Salvar();
+            if(m.Admin == true) {
+                m.Admin = false;
+                Atualizar(m);
+            }
+            else
+            {
+                m.Admin = true;
+                Atualizar(m);
+            }
         }
         public static void Excluir(Membro m)
         {

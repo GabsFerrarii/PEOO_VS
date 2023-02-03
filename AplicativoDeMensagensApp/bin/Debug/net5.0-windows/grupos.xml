@@ -5,4 +5,9 @@
     <Nome>Selma Dantas</Nome>
     <Descricao>Grupo de humor</Descricao>
   </Grupo>
+  <Grupo>
+    <Id>2</Id>
+    <Nome>Conselho de Turma</Nome>
+    <Descricao>Para discutir a camiseta</Descricao>
+  </Grupo>
 </ArrayOfGrupo>

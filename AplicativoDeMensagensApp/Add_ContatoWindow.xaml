@@ -10,6 +10,6 @@
         <ListBox x:Name="listContatos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0" Width="406" Height="90"/>
         <ListBox Name="listGrupos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,110,0,0" Width="406" Height="90"/>
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top"/>
-        <Button Click="MatricularClick" Content="Matricular" HorizontalAlignment="Left" Margin="49,209,0,0" VerticalAlignment="Top"/>
+        <Button Click="AdicionarClick" Content="Adicionar" HorizontalAlignment="Left" Margin="49,209,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

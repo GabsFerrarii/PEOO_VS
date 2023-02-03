@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMembro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Membro>
+    <Id>1</Id>
+    <IdContato>2</IdContato>
+    <IdGrupo>1</IdGrupo>
+    <Admin>false</Admin>
+    <Nome>Coscas</Nome>
+    <Numero>84 99111-4746</Numero>
+  </Membro>
+  <Membro>
+    <Id>2</Id>
+    <IdContato>1</IdContato>
+    <IdGrupo>1</IdGrupo>
+    <Admin>true</Admin>
+    <Nome>Babras</Nome>
+    <Numero>84 99440-1867</Numero>
+  </Membro>
+  <Membro>
+    <Id>3</Id>
+    <IdContato>3</IdContato>
+    <IdGrupo>1</IdGrupo>
+    <Admin>false</Admin>
+    <Nome>Luvas</Nome>
+    <Numero>84 99938-8868</Numero>
+  </Membro>
+  <Membro>
+    <Id>4</Id>
+    <IdContato>3</IdContato>
+    <IdGrupo>2</IdGrupo>
+    <Admin>true</Admin>
+    <Nome>Luvas</Nome>
+    <Numero>84 99938-8868</Numero>
+  </Membro>
+  <Membro>
+    <Id>5</Id>
+    <IdContato>1</IdContato>
+    <IdGrupo>2</IdGrupo>
+    <Admin>false</Admin>
+    <Nome>Babras</Nome>
+    <Numero>84 99440-1867</Numero>
+  </Membro>
+</ArrayOfMembro>

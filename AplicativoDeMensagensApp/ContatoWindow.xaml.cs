@@ -26,13 +26,20 @@ namespace AplicativoDeMensagensApp
 
         private void InserirClick(object sender, RoutedEventArgs e)
         {
-            Contato c = new Contato();
-            c.Id = int.Parse(txtId.Text);
-            c.Nome = txtNome.Text;
-            c.Email = txtEmail.Text;
-            c.Numero = txtNumero.Text;
-            NContato.Inserir(c);
-            ListarClick(sender, e);
+            if (txtId.Text != string.Empty)
+            {
+                Contato c = new Contato();
+                c.Id = int.Parse(txtId.Text);
+                c.Nome = txtNome.Text;
+                c.Email = txtEmail.Text;
+                c.Numero = txtNumero.Text;
+                NContato.Inserir(c);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso escrever um Id");
+            }
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
@@ -43,21 +50,35 @@ namespace AplicativoDeMensagensApp
 
         private void AtualizarClick(object sender, RoutedEventArgs e)
         {
-            Contato c = new Contato();
-            c.Id = int.Parse(txtId.Text);
-            c.Nome = txtNome.Text;
-            c.Email = txtEmail.Text;
-            c.Numero = txtNumero.Text;
-            NContato.Atualizar(c);
-            ListarClick(sender, e);
+            if (txtId.Text != string.Empty)
+            {
+                Contato c = new Contato();
+                c.Id = int.Parse(txtId.Text);
+                c.Nome = txtNome.Text;
+                c.Email = txtEmail.Text;
+                c.Numero = txtNumero.Text;
+                NContato.Atualizar(c);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso escrever um Id");
+            }
         }
 
         private void ExcluirClick(object sender, RoutedEventArgs e)
         {
-            Contato c = new Contato();
-            c.Id = int.Parse(txtId.Text);
-            NContato.Excluir(c);
-            ListarClick(sender, e);
+            if (txtId.Text != string.Empty)
+            {
+                Contato c = new Contato();
+                c.Id = int.Parse(txtId.Text);
+                NContato.Excluir(c);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso escrever um Id");
+            }
         }
 
         private void listContatos_SelectionChanged(object sender, SelectionChangedEventArgs e)

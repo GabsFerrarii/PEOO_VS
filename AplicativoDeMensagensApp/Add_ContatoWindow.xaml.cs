@@ -22,16 +22,30 @@ namespace AplicativoDeMensagensApp
         public Add_ContatoWindow()
         {
             InitializeComponent();
+            
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            listContatos.ItemsSource = null;
+            listContatos.ItemsSource = NContato.Listar();
+            listGrupos.ItemsSource = null;
+            listGrupos.ItemsSource = NGrupo.Listar();
         }
 
-        private void MatricularClick(object sender, RoutedEventArgs e)
+        private void AdicionarClick(object sender, RoutedEventArgs e)
         {
-
+            if(listContatos.SelectedItem != null && listGrupos.SelectedItem != null)
+            {
+                Grupo g = (Grupo)listGrupos.SelectedItem;
+                Contato c = (Contato)listContatos.SelectedItem;
+                NMembro.CadastrarContato(c, g);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar um contato e um grupo");
+            }
         }
     }
 }

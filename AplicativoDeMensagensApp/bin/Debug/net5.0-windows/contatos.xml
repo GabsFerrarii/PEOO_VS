@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfContato xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfContato xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contato>
+    <Id>1</Id>
+    <Nome>Babras</Nome>
+    <Numero>84 99440-1867</Numero>
+    <Email>cavalcante.gabriel@escolar.ifrn.edu.br</Email>
+  </Contato>
+  <Contato>
+    <Id>2</Id>
+    <Nome>Coscas</Nome>
+    <Numero>84 99111-4746</Numero>
+    <Email>hc.heitorcossito@gmail.com</Email>
+  </Contato>
+  <Contato>
+    <Id>3</Id>
+    <Nome>Luvas</Nome>
+    <Numero>84 99938-8868</Numero>
+    <Email>monzadrifteiro@gmail.com</Email>
+  </Contato>
+</ArrayOfContato>

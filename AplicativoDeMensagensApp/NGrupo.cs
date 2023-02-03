@@ -36,7 +36,6 @@ namespace AplicativoDeMensagensApp
             }
             return null;
         }
-        
         public static void Excluir(Grupo g)
         {
             Abrir();
@@ -56,7 +55,6 @@ namespace AplicativoDeMensagensApp
             obj.Descricao = g.Descricao;
             Salvar();
         }
-        
         public static void Abrir()
         {
             StreamReader f = null;

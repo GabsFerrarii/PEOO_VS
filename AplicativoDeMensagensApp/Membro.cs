@@ -16,7 +16,7 @@ namespace AplicativoDeMensagensApp
         public string Numero { get; set; }
         public override string ToString()
         {
-            return $"{Id} - {Nome} - {Numero}";
+            return $"{Id} - {Nome} - {Numero} - Admin: {Admin}";
         }
     }
 }

@@ -22,16 +22,35 @@ namespace AplicativoDeMensagensApp
         public List_MembrosWindow()
         {
             InitializeComponent();
+            listGrupos.ItemsSource = NGrupo.Listar();
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
-
+            if (listGrupos.SelectedItem != null)
+            {
+                Grupo g = (Grupo)listGrupos.SelectedItem;
+                listMembros.ItemsSource = null;
+                listMembros.ItemsSource = NMembro.ListarMembros(g);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar um grupo");
+            }
         }
 
         private void AdminClick(object sender, RoutedEventArgs e)
         {
-
+            if(listMembros.SelectedItem != null)
+            {
+                Membro m = (Membro)listMembros.SelectedItem;
+                NMembro.TornarAdmin(m);
+                ListarClick(sender, e);
+            }
+            else
+            {
+                MessageBox.Show("É preciso selecionar um membro");
+            }
         }
     }
 }
